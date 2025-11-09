@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: Dropbox-OAuth-Demo
+
+server:
+  port: 8080
+
+dropbox:
+  client-id: v5glun4af45uy3m
+  client-secret: mbsgqhx1cagfizh
+  redirect-uri: http://localhost:8080/dbx/oauth/callback
+  scopes: team_info.read members.read events.read account_info.read
